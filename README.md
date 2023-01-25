@@ -8,8 +8,10 @@ Script to parse a JSON file, with a list of endpoints, over a given URL, send a 
 
 Retrieves URLs from a JSON file and sends a request to each URL using curl
 
--f file         path to the JSON file
--u url          base URL to append the URI to
--o output       specify the output file name
--p proxy        send URL requests to proxy
--h              display this help and exit
+* -f file         path to the JSON file
+* -u url          base URL to append the URI to
+* -o output       specify the output file name
+* -p proxy        send URL requests to proxy
+* -h              display this help and exit
+
+With clean-output.sh you can clean the output files, generating a new output file with only the full URLs.
